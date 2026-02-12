@@ -30,7 +30,7 @@ Invoke the skill by saying:
 
 ## Evaluation Framework
 
-The skill evaluates PRDs across 5 dimensions:
+The skill evaluates PRDs across 7 dimensions:
 
 | Dimension | What It Checks |
 |-----------|----------------|
@@ -38,6 +38,8 @@ The skill evaluates PRDs across 5 dimensions:
 | **Technical Depth** | APIs, data models, edge cases, performance requirements |
 | **Hypothesis Rigor** | Metrics, success thresholds, timelines, confounds |
 | **Scope & Constraints** | Goals, non-goals, priorities, risks, dependencies |
+| **Readability & Flow** | Narrative arc, transitions, information hierarchy, document length |
+| **Precision of Language** | Vague quantifiers, weasel words, specific numbers, evidence |
 | **Future Reader Test** | Self-contained, jargon explained, durable references |
 
 Each dimension is scored:

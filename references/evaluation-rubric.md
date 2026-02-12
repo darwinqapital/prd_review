@@ -178,6 +178,83 @@ Detailed scoring criteria for each evaluation dimension. Use this as a reference
 
 ---
 
+## 6. Readability & Flow
+
+**Purpose**: Ensure the document has a clear narrative arc and guides readers effectively through the content.
+
+### 🟢 Strong
+- Clear narrative arc from problem → solution → validation
+- Transition sentences connect sections smoothly
+- Each section builds logically on the previous one
+- Information hierarchy is clear (headings, subheadings, bullets used well)
+- Paragraphs are focused (one idea per paragraph)
+- Sentence structure is varied and clear
+- Document is the right length (comprehensive but not bloated)
+- Descriptive headings (not just "Overview" but "Overview: Why This Matters Now")
+
+### 🟡 Adequate
+- Logical structure but transitions feel abrupt
+- Some sections feel disconnected from the flow
+- Occasional long paragraphs mixing multiple ideas
+- Structure present but inconsistent
+- Some redundancy or unnecessary length
+
+### 🔴 Needs Work
+- Wall of text without clear structure
+- Sections feel randomly ordered
+- No transitions between sections
+- Bullet point abuse (everything in bullets, no prose)
+- Inconsistent heading levels
+- Document is significantly too long or too short
+
+### Questions to Ask
+- "Does this tell a coherent story?"
+- "Can I follow the logic from start to finish without backtracking?"
+- "Is each section earning its place in this document?"
+
+---
+
+## 7. Precision of Language
+
+**Purpose**: Ensure claims are specific, measurable, and backed by evidence rather than vague assertions.
+
+### 🟢 Strong
+- Specific numbers provided where relevant ("23% of users" not "many users")
+- Claims backed by data or evidence sources cited
+- No weasel words (should, could, might, potentially)
+- Acronyms defined on first use
+- Consistent terminology throughout
+- Active voice predominates (clear ownership of actions)
+- Jargon appropriate for audience, explained when necessary
+
+### 🟡 Adequate
+- Some specific numbers but occasional vague quantifiers
+- Minor weasel word usage
+- Most acronyms defined but a few assumed
+- Generally consistent terminology
+- Mix of active and passive voice
+
+### 🔴 Needs Work
+- Frequent vague quantifiers ("many users", "significant improvement")
+- Heavy weasel word usage ("should help", "might improve")
+- Claims asserted without evidence
+- Acronyms undefined throughout
+- Inconsistent terminology (same thing called different names)
+- Passive voice obscures ownership ("it was decided")
+
+### Common Vague Patterns to Flag
+- **Vague quantifiers**: "many/most/some/significant/substantial" → Ask: "What's the actual number?"
+- **Weasel words**: "should/could/might/may/potentially" → Ask: "Is this committed or aspirational?"
+- **Missing specifics**: "improve the experience" → Ask: "Which experience? How measured?"
+- **Unbounded ranges**: "up to 50% improvement" → Ask: "What's the realistic case?"
+
+### Questions to Ask
+- "Could I hold someone accountable to what's written here?"
+- "Are there any claims I couldn't verify?"
+- "Is every number or percentage traceable to a source?"
+
+---
+
 ## Scoring Summary Table
 
 | Dimension | Key Question | Strong Signal | Weak Signal |
@@ -187,6 +264,8 @@ Detailed scoring criteria for each evaluation dimension. Use this as a reference
 | Hypothesis Rigor | "How do we know it worked?" | Metric + threshold + timeline | "Improve engagement" |
 | Scope & Constraints | "What are we NOT doing?" | Explicit non-goals + priorities | Everything is P1 |
 | Future Reader | "Will this make sense later?" | Self-contained + durable refs | Slack links + jargon |
+| Readability & Flow | "Does it tell a coherent story?" | Clear arc + smooth transitions | Wall of text, disjointed |
+| Precision of Language | "Could I hold someone to this?" | Specific numbers + evidence | Vague quantifiers, weasel words |
 
 ---
 
